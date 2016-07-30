@@ -1,0 +1,7 @@
+requests
+pyopenssl
+ndg-httpsclient
+ipython
+raven
+django
+django-widget-tweaks

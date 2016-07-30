@@ -122,6 +122,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-TELEGRAM_BOT_TOKEN = '247584579:AAFnjbubIdE6EX4dRPFdPtBjEhgukZYshJw'
-TELEGRAM_HOOK_URL = 'https://pingdom2calltest.olebo.ru/telegram_hook/'
-TELEGRAM_PINGDOM_WEBHOOK = 'https://pingdom2call.olebo.ru/telegram_alert/'
+TELEGRAM_BOT_TOKEN = None
+TELEGRAM_HOOK_URL = None
+TELEGRAM_PINGDOM_WEBHOOK = None

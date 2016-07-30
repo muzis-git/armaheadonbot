@@ -2,7 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db5cce20-4011-406a-81b6-0ef12e3547cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/_markerlib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/_markerlib/markers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-18.0.1.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-18.0.1.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-18.0.1.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-18.0.1.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-18.0.1.dist-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-18.0.1.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-18.0.1.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-18.0.1.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-18.0.1.dist-info/zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/cli-arm-32.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/gui-arm-32.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/msvc9_support.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-2.7.exe" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-2.7.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asl/settings.py" afterPath="$PROJECT_DIR$/asl/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/telegram_api.py" afterPath="$PROJECT_DIR$/core/telegram_api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy_install.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/__about__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_compat.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_structures.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/version.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/archive_util.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/archive_util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/alias.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/alias.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_egg.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_egg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_rpm.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_rpm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_wininst.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_wininst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_ext.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_ext.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_py.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_py.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/develop.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/develop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/egg_info.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/egg_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_egg_info.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_egg_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_lib.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_lib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_scripts.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_scripts.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/launcher manifest.xml" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/launcher manifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/register.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/register.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/rotate.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/rotate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/saveopts.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/saveopts.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/sdist.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/sdist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/setopt.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/setopt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/test.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/upload_docs.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/upload_docs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/depends.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/depends.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/dist.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/dist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/extension.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/extension.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/lib2to3_ex.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/lib2to3_ex.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/package_index.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/package_index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/py26compat.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/py26compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/py27compat.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/py27compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/py31compat.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/py31compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/sandbox.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/sandbox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/script (dev).tmpl" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/script (dev).tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/script.tmpl" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/script.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/site-patch.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/site-patch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/ssl_support.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/ssl_support.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/unicode_utils.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/unicode_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/utils.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/version.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/windows_support.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/windows_support.py" />
     </list>
     <ignored path="asl.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +95,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asl/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="126" column="74" selection-start-line="126" selection-start-column="74" selection-end-line="126" selection-end-column="74" />
+            <state relative-caret-position="743">
+              <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/asl/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#636#681#0" expanded="true" />
               </folding>
@@ -51,10 +120,10 @@
       <file leaf-file-name="telegram_api.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/telegram_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="192">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,11 +132,21 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
+            <state relative-caret-position="1536">
               <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,11 +181,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/asl/settings.py" />
         <option value="$PROJECT_DIR$/asl/telegram_api.py" />
         <option value="$PROJECT_DIR$/core/models.py" />
         <option value="$PROJECT_DIR$/core/views.py" />
         <option value="$PROJECT_DIR$/asl/urls.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/core/telegram_api.py" />
+        <option value="$PROJECT_DIR$/asl/settings.py" />
       </list>
     </option>
   </component>
@@ -488,11 +569,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -531,14 +612,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/asl/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="126" column="74" selection-start-line="126" selection-start-column="74" selection-end-line="126" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -557,19 +630,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/telegram_api.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
+        <state relative-caret-position="1536">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -577,13 +648,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/telegram_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/asl/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#636#681#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asl/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
