@@ -24,6 +24,8 @@ def telegram_hook(request):
         tc.save()
     if '/' in message['text'][0]:
         telegram_commands(message, request)
+    if "I'm" in message['text']:
+        telegram_emotion(message)
 
 
 def init(request):
@@ -63,6 +65,17 @@ def telegram_commands(message, request):
         resp = invoke_telegram('sendMessage', text='Command does not exist', chat_id=message['chat']['id'])
     elif message['text'][1:] == 'song':
         _send_telegram_by_username(message['chat']['username'],'Name the song')
+        c = message['chat']['id']
         update = json.loads(request.body)
         message = update['message']
-        requests.post('http://muzis.ru/api/search.api',data=message['text'])
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_track',data= message['text']))
+        message = update['message']
+        invoke_telegram('sendVoice', audio=message['songs'],chat_id=c)
+
+
+def telegram_emotion(message):
+    c = message['chat']['id']
+    if message['text'].split() == 'sad':
+        update = json.loads(requests.post('http://muzis.ru/api/search.api', data=message['text']))
+        message = update['message']
+        invoke_telegram('sendVoice', audio=message['songs'], chat_id=c)
