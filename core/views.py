@@ -79,6 +79,7 @@ def telegram_commands(message, request):
         c = message['chat']['id']
         update = json.loads(request.body)
         message = update['message']
+        _send_telegram_by_username(message['chat']['username'],'Timer set')
         time.sleep(int(message['text'])*3600)
         update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=10'))
         message = update['message']
