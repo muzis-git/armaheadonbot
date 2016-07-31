@@ -81,7 +81,7 @@ def telegram_commands(message, request):
         message = update['message']
         _send_telegram_by_username(message['chat']['username'],'Timer set')
         time.sleep(int(message['text'])*3600)
-        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=10'))
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=5'))
         message = update['message']
         invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
 
@@ -89,11 +89,11 @@ def telegram_commands(message, request):
 def telegram_emotion(message):
     c = message['chat']['id']
     if 'sad' in message['text']:
-        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=10'))
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=5'))
         message = update['message']
         invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
     elif 'happy' in message['text']:
-        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25739?value=10'))
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25739?value=5'))
         message = update['message']
         invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
 
@@ -101,10 +101,10 @@ def telegram_emotion(message):
 def telegram_duty(message):
     c = message['chat']['id']
     if 'work' in message['text']:
-        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=10'))
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=5'))
         message = update['message']
         invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
     elif 'gym' in message['text']:
-        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25739?value=10'))
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25739?value=5'))
         message = update['message']
         invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
