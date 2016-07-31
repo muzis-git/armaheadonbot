@@ -25,9 +25,9 @@ def telegram_hook(request):
         tc.save()
     if '/' in message['text'][0]:
         telegram_commands(message, request)
-    elif "I'm on" in message['text']:
+    elif "Im on" in message['text']:
         telegram_duty(message)
-    elif "I'm" in message['text']:
+    elif "Im" in message['text']:
         telegram_emotion(message)
 
 
@@ -74,16 +74,26 @@ def telegram_commands(message, request):
         update = json.loads(requests.post('http://muzis.ru/api/search.api?q_track',data= message['text']))
         message = update['message']
         invoke_telegram('sendVoice', audio=message['songs']['file_mp3'],chat_id=c)
-    elif message['text'][1:] == 'set':
-        _send_telegram_by_username(message['chat']['username'], 'Every ? hours post recomended music?')
+    elif message['text'][1:] == 'sim':
+        _send_telegram_by_username(message['chat']['username'], 'For what songs you want get suggsetions?')
         c = message['chat']['id']
         update = json.loads(request.body)
         message = update['message']
-        _send_telegram_by_username(message['chat']['username'],'Timer set')
-        time.sleep(int(message['text'])*3600)
-        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=5'))
+        update = json.loads(requests.post('http://muzis.ru//api/similar_performers.api?performer_id?value=5', data=message['text']))
         message = update['message']
-        invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
+        for x in message['songs']['songs']:
+            invoke_telegram('sendVoice', audio=x, chat_id=c)
+    elif message['text'][1:] == 'genre':
+        genre = message['text'].split()[-1]
+        _send_telegram_by_username(message['chat']['username'], 'Good choice')
+        c = message['chat']['id']
+        update = json.loads(request.body)
+        message = update['message']
+        update = json.loads(requests.post('http://muzis.ru/api/stream_from_values.api?values?value=5', data=message['text']))
+        message = update['message']
+        for x in message['songs']['songs']:
+            invoke_telegram('sendVoice', audio=x, chat_id=c)
+
 
 
 def telegram_emotion(message):
