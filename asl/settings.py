@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'core',
+    'widget_tweaks',
+    'raven.contrib.django.raven_compat'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -122,6 +125,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-TELEGRAM_BOT_TOKEN = None
+TELEGRAM_BOT_TOKEN = '248322510:AAF-N_Fv96CCORa9eXCpd_Bb3YDK6YgwOOE'
 TELEGRAM_HOOK_URL = None
 TELEGRAM_PINGDOM_WEBHOOK = None

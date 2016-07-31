@@ -9,7 +9,6 @@ from models import TelegramChat
 from django.views.decorators.csrf import csrf_exempt
 from asl import settings
 
-import base64
 
 from django.http import HttpResponse
 # Create your views here.
@@ -59,6 +58,11 @@ def send_telegram(request, username):
 
 
 def telegram_commands(message, request):
-    commands = {'help','start'}
+    commands = {'help','start','song'}
     if message['text'][1:] not in commands:
         resp = invoke_telegram('sendMessage', text='Command does not exist', chat_id=message['chat']['id'])
+    elif message['text'][1:] == 'song':
+        _send_telegram_by_username(message['chat']['username'],'Name the song')
+        update = json.loads(request.body)
+        message = update['message']
+        requests.post('http://muzis.ru/api/search.api',data=message['text'])
