@@ -1,6 +1,7 @@
 from django.shortcuts import render
 import json
 import urllib
+import time
 
 import requests
 
@@ -24,7 +25,9 @@ def telegram_hook(request):
         tc.save()
     if '/' in message['text'][0]:
         telegram_commands(message, request)
-    if "I'm" in message['text']:
+    elif "I'm on" in message['text']:
+        telegram_duty(message)
+    elif "I'm" in message['text']:
         telegram_emotion(message)
 
 
@@ -60,7 +63,7 @@ def send_telegram(request, username):
 
 
 def telegram_commands(message, request):
-    commands = {'help','start','song'}
+    commands = {'help','start','song','set'}
     if message['text'][1:] not in commands:
         resp = invoke_telegram('sendMessage', text='Command does not exist', chat_id=message['chat']['id'])
     elif message['text'][1:] == 'song':
@@ -70,12 +73,37 @@ def telegram_commands(message, request):
         message = update['message']
         update = json.loads(requests.post('http://muzis.ru/api/search.api?q_track',data= message['text']))
         message = update['message']
-        invoke_telegram('sendVoice', audio=message['songs'],chat_id=c)
+        invoke_telegram('sendVoice', audio=message['songs']['file_mp3'],chat_id=c)
+    elif message['text'][1:] == 'set':
+        _send_telegram_by_username(message['chat']['username'], 'Every ? hours post recomended music?')
+        c = message['chat']['id']
+        update = json.loads(request.body)
+        message = update['message']
+        time.sleep(int(message['text'])*3600)
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=10'))
+        message = update['message']
+        invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
 
 
 def telegram_emotion(message):
     c = message['chat']['id']
-    if message['text'].split() == 'sad':
-        update = json.loads(requests.post('http://muzis.ru/api/search.api', data=message['text']))
+    if 'sad' in message['text']:
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=10'))
         message = update['message']
-        invoke_telegram('sendVoice', audio=message['songs'], chat_id=c)
+        invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
+    elif 'happy' in message['text']:
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25739?value=10'))
+        message = update['message']
+        invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
+
+
+def telegram_duty(message):
+    c = message['chat']['id']
+    if 'work' in message['text']:
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25201?value=10'))
+        message = update['message']
+        invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
+    elif 'gym' in message['text']:
+        update = json.loads(requests.post('http://muzis.ru/api/search.api?q_value=25739?value=10'))
+        message = update['message']
+        invoke_telegram('sendVoice', audio=message['songs']['file_mp3'], chat_id=c)
